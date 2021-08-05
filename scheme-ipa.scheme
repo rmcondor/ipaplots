@@ -4,7 +4,7 @@
 *
 *
 sequence 1210
-label "ronplots"   // auto generated
+label "ipaplots"   // auto generated
 #include s2color
 
 // positions and sizes

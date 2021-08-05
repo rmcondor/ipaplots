@@ -1,0 +1,8 @@
+v 3
+d ipaplots - graphing scheme
+d Clean default plots with marginsplot and other common graphs
+d Kelly Montaño and Ronny M. Condor
+d Innovations for Poverty Action 
+d Distribution-Date: 20210802
+f scheme-ipaplots.scheme
+f ipaplots.sthlp

@@ -9,14 +9,14 @@
 **	CREATED: 2021-10-28
 ********************************************************************************
 
-global graphs "C:\Users\\`c(username)'\Documents\GitHub\blogrotonda\graphs"
+global graphs "C:\Users\\`c(username)'\Documents\GitHub\ipaplots\graphs"
 
 * Read the data
 use "https://github.com/La-Rotonda/blogrotonda/blob/main/scheme_test.dta?raw=true", clear
 
-* Set blogrotonda scheme
+* Set ipaplots scheme
 
-set scheme blogrotonda, perm
+set scheme ipaplots, perm
 
 *** Scatter plot
 twoway (scatter var2 var5), title("Scatter plot") note("Elaboration: @BlogRotonda")

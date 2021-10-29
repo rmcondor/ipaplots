@@ -18,4 +18,4 @@ set scheme ipaplots
 <img src="./graphs/bygraphs.png" height="503">
 
 ## Author
-Ronny M. Condor
+IPA Peru

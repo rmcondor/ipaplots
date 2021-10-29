@@ -17,6 +17,5 @@ set scheme ipaplots
 <img src="./graphs/density.png" height="250"> <img src="./graphs/range_graphs.png" height="250">
 <img src="./graphs/bygraphs.png" height="503">
 
-## Authors
-* Kelly Montaño
-* Ronny M. Condor
+## Author
+IPA Peru

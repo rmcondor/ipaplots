@@ -378,7 +378,7 @@ color p14arealine    "255 152 150"
 color p15arealine    "197 176 213"
 
 * Pie slices
-color ppieline    black
+color ppieline    white
 color p1pie      "129 181 60"
 color p2pie      "232 148 35"
 color p3pie      "0 110 185"
@@ -415,7 +415,7 @@ color ci2_symbol      gs13
 
 * Histograms
 color histogram     "129 181 60"
-color histogram_line  black
+color histogram_line  white
 color xyline     gs8
 color tick            gs8
 color minortick       gs8

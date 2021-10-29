@@ -318,7 +318,7 @@ color p14markline     "255 152 150"
 color p15markline     "197 176 213"
 
 * Bar charts
-color pbarline    black
+color pbarline    white
 color p1bar      "129 181 60"
 color p2bar      "232 148 35"
 color p3bar      "0 110 185"

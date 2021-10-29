@@ -248,8 +248,8 @@ color tick_label   black
 color plabel             black
 
 color p1      "129 181 60"
-color p2      "232 148 35"
-color p3      "0 110 185"
+color p2      "0 110 185"
+color p3      "232 148 35"
 color p4       "0 174 239"
 color p5       "141 40 143"
 color p6       "237 10 100"
@@ -267,8 +267,8 @@ color p15       "197 176 213"
 
 * Default for lines (matching the symbols)
 color p1line     "129 181 60"
-color p2line     "232 148 35"
-color p3line     "0 110 185"
+color p2line     "0 110 185"
+color p3line     "232 148 35"
 color p4line     "0 174 239"
 color p5line      "141 40 143"
 color p6line      "237 10 100"
@@ -284,8 +284,8 @@ color p14line      "255 152 150"
 color p15line      "197 176 213"
 
 color p1lineplot    "129 181 60"
-color p2lineplot    "232 148 35"
-color p3lineplot    "0 110 185"
+color p2lineplot    "0 110 185"
+color p3lineplot    "232 148 35"
 color p4lineplot    "0 174 239"
 color p5lineplot     "141 40 143"
 color p6lineplot    "237 10 100"
@@ -301,8 +301,8 @@ color p14lineplot     "255 152 150"
 color p15lineplot     "197 176 213"
 
 color p1markline    "129 181 60"
-color p2markline    "232 148 35"
-color p3markline    "0 110 185"
+color p2markline    "0 110 185"
+color p3markline    "232 148 35"
 color p4markline    "0 174 239"
 color p5markline     "141 40 143"
 color p6markline    "237 10 100"
@@ -320,8 +320,8 @@ color p15markline     "197 176 213"
 * Bar charts
 color pbarline    white
 color p1bar      "129 181 60"
-color p2bar      "232 148 35"
-color p3bar      "0 110 185"
+color p2bar      "0 110 185"
+color p3bar      "232 148 35"
 color p4bar      "0 174 239"
 color p5bar      "141 40 143"
 color p6bar      "237 10 100"
@@ -343,8 +343,9 @@ linewidth parealine   thin
 
 * Area plots
 color p1area     "129 181 60"
-color p2area     "232 148 35"
-color p3area     "0 110 185"
+color p2area     "0 110 185"
+color p3area     "232 148 35"
+
 color p4area     "0 174 239"
 color p5area     "141 40 143"
 color p6area     "237 10 100"
@@ -361,8 +362,9 @@ color p15area     "197 176 213"
 
 *Area line
 color p1arealine    "129 181 60"
-color p2arealine    "232 148 35"
-color p3arealine    "0 110 185"
+color p2arealine    "0 110 185"
+color p3arealine    "232 148 35"
+
 color p4arealine    "0 174 239"
 color p5arealine    "141 40 143"
 color p6arealine    "237 10 100"
@@ -380,8 +382,10 @@ color p15arealine    "197 176 213"
 * Pie slices
 color ppieline    white
 color p1pie      "129 181 60"
-color p2pie      "232 148 35"
-color p3pie      "0 110 185"
+color p2pie      "0 110 185"
+color p3pie      "232 148 35"
+
+
 color p4pie      "0 174 239"
 color p5pie      "141 40 143"
 color p6pie      "237 10 100"

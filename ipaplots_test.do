@@ -19,7 +19,7 @@ use "https://github.com/La-Rotonda/blogrotonda/blob/main/scheme_test.dta?raw=tru
 set scheme ipaplots, perm
 
 *** Scatter plot
-twoway (scatter var2 var5), title("Scatter plot") note("Elaboration: @BlogRotonda")
+twoway (scatter var2 var5), title("Scatter plot") note("Elaboration: Innovations for Poverty Action (IPA)")
 graph export "${graphs}\scatter_plot.png", as(png) name("Graph") replace
 
 
@@ -32,23 +32,23 @@ twoway ///
 	(line var2 date if group==5), ///
 		legend(order(1 "group1" 2 "group2" 3 "group3"  4 "group4"  5 "group5")) ///
 		title("Line plot") ///
-		note("Elaboration: @BlogRotonda")
+		note("Elaboration: Innovations for Poverty Action (IPA)")
 graph export "${graphs}\line_graph.png", as(png) name("Graph") replace
 		
 *** Pie chart
 graph pie var1 if group <= 5, ///
 	over(group) plabel(_all percent, format(%9.1f)) ///
-	title("Pie plot") note("Elaboration: @BlogRotonda")
+	title("Pie plot") note("Elaboration: Innovations for Poverty Action (IPA)")
 graph export "${graphs}\pie_chart.png", as(png) name("Graph") replace
 	
 *** Box plot
 graph box var1 - var5 , ///
 		title("Box plot") ///
-		note("Elaboration: @BlogRotonda")
+		note("Elaboration: Innovations for Poverty Action (IPA)")
 graph export "${graphs}\box_plot.png", as(png) name("Graph") replace
 		
 *** Histogram
-histogram var3, percent title("Histogram") note("Elaboration: @BlogRotonda")
+histogram var3, percent title("Histogram") note("Elaboration: Innovations for Poverty Action (IPA)")
 graph export "${graphs}\histogram.png", as(png) name("Graph") replace
 
 	
@@ -56,7 +56,7 @@ graph export "${graphs}\histogram.png", as(png) name("Graph") replace
 graph hbar var1 - var5, ///
 		blabel(bar, format(%9.2f)) ylabel(0(100)1000) ///
 		title("Bar graph") ///
-		note("Elaboration: @BlogRotonda")
+		note("Elaboration: Innovations for Poverty Action (IPA)")
 graph export "${graphs}\hbar.png", as(png) name("Graph") replace
 
 		
@@ -66,7 +66,7 @@ twoway ///
 	(area den1d den1x, fcolor(%50)) ///
 	(area gen2d gen2x, fcolor(%50)) ///
 	(area gen3d gen3x, fcolor(%50)), ///
-			title("Density plots") note("Elaboration: @BlogRotonda")
+			title("Density plots") note("Elaboration: Innovations for Poverty Action (IPA)")
 graph export "${graphs}\density.png", as(png) name("Graph") replace
 
 
@@ -75,7 +75,7 @@ graph export "${graphs}\density.png", as(png) name("Graph") replace
 twoway ///
 	(rcapsym var2 var3 date if group==1, sort) ///
 	(rcapsym var2 var3 date if group==2, sort), ///
-		title("Range plots") note("Elaboration: @BlogRotonda")
+		title("Range plots") note("Elaboration: Innovations for Poverty Action (IPA)")
 graph export "${graphs}\range_graphs.png", as(png) name("Graph") replace
 
 		
@@ -83,5 +83,5 @@ graph export "${graphs}\range_graphs.png", as(png) name("Graph") replace
 		
 graph box var1 ///
 		if group <= 2, ///
-		by(group, title("By graphs") note("Elaboration: @BlogRotonda"))
+		by(group, title("By graphs") note("Elaboration: Innovations for Poverty Action (IPA)"))
 graph export "${graphs}\bygraphs.png", as(png) name("Graph") replace
